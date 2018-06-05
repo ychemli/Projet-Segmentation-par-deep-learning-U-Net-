@@ -1,1 +1,12 @@
 # Projet-Segmentation-par-deep-learning-U-Net-
+
+Résumé   
+
+Ce travail vise à exposer une technique de segmentation décrite dans [1]. Les réseaux de neurones profonds ont montré leur efficacité dans de nombreuses taches de vision et traitement d’images. Elles ont permis de surpasser les résultats de nombreuses techniques, notamment pour la segmentation d’images. Mais, pour être efficaces, il leur faut une importante base d’apprentissage. Récemment une nouvelle approche a été présentée reposant sur une nouvelle architecture d’un réseau convolutionnel pour segmenter des images biologiques. Cette architecture en forme de U, se compose d’une première phase de contraction de l’image pour capturer le contexte et dans une seconde phase symétrique d’expansion pour permettre une bonne localisation. Nous introduisons dans ce travail certains aspects de la segmentation et de la segmentation d’images biomédicales. Nous présentons ensuite les enjeux et certaines techniques d’apprentissage profond. Nous discuterons de l’intérêt et la pertinence de cette nouvelle architecture de réseau.  Enfin, nous exposerons et commenterons des résultats de segmentations sur différentes bases d’images à l’aide du réseau U-Net. 
+
+
+Abstract 
+
+Deep neural networks have proven their efficiency in many fields of computer vision and image processing. They have been used for image segmentation and outperformed state of the art technics. But to be effective, they need a large learning data base. Recently a new approach have been presented based on data augmentation to enable effective use a low volume of training data (annotated data available) and on a new network architecture for segmenting biological images. This U-shaped architecture, consists of a first image contraction phase to capture the context and in a symmetrical second phase of expansion to allow good localization. We introduce in this writing some issues of segmentation especially for biomedical images using conventional and advanced methods. Then, we present the issues and some deep learning techniques and discuss the contribution and the relevance of this new network architecture.  Finnaly we present and comment some segmentation results on different databases done with the U-Net architecture.
+
+[1] O. Ronneberger, P. Fischer, and T. Brox, “U-net: Convolutional networks for biomedical image segmentation,” in MICCAI, pp. 234–241, Springer, 2015.
